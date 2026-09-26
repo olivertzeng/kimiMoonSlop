@@ -30,8 +30,11 @@ dialog::backdrop {
 #shopBtn {
     /* background: transparent; */
     border: none;
-    cursor: pointer;
-    background-image: "assets/shop.svg";
+    background-image: url("assets/shop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -47,7 +50,6 @@ dialog::backdrop {
     font-size: 300px;
     background: transparent;
     border: none;
-    cursor: pointer;
     transition: transform 0.1s;
 }
 
@@ -57,7 +59,6 @@ dialog::backdrop {
 
 #closeShopBtn {
     font-size: 10;
-    cursor: pointer;
     top: 20px;
     right: 20px;
 }
