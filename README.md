@@ -9,7 +9,7 @@ Since in the past I have already vibecoded a bunch of web pages and automation s
 
 That's why it's called kimiMoonSlop, because instead of being Artificial Intelligence Slop, it becomes Actual Intelligence slop
 
-Hope someone enjoyes my site, this is probably going on Cloudflare Pages.
+Hope someone enjoyes my site, this is on [Cloudflare Pages](https://kimimoonslop.pages.dev/) or my main domain on 7279744.xyz [slop.7279744.xyz](https://slop.7279744.xyz).
 
 ## Credits & Kudos
 
