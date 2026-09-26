@@ -1,0 +1,16 @@
+body {
+    background-color: saddlebrown;
+    color: darkred;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#shopBtn {
+    position: right;
+}
