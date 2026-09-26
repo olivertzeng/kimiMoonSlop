@@ -1,16 +1,63 @@
 body {
-    background-color: saddlebrown;
-    color: darkred;
+    background-color: black;
+    color: white;
     text-align: center;
     margin-top: 100px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1.2rem;
+    background-color: #333;
+    border-radius: 8px;
+    border: 1px solid #555;
+    color: inherit;
+    /* On hover changes cursor to pointy finger */
     cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+dialog {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 12px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #shopBtn {
-    position: right;
+    /* background: transparent; */
+    border: none;
+    cursor: pointer;
+    background-image: "assets/shop.svg";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#totalText {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#moonCakeBtn {
+    font-size: 300px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+#moonCakeBtn:active {
+    transform: scale(0.8);
+}
+
+#closeShopBtn {
+    font-size: 10;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
 }
